@@ -1,0 +1,81 @@
+/* Trainers.css */
+.trainers-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .trainers-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .trainers-header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .trainers-actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .trainers-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .trainers-list {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .trainer-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trainer-card h2 {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .trainer-card p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .trainer-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .trainer-actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .trainer-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .trainer-actions button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .trainer-actions button:last-child:hover {
+    background-color: #a71d2a;
+  }

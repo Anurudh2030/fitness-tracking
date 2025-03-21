@@ -1,0 +1,72 @@
+/* Centering the Register Box */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0a3d62; /* Dark Blue Background */
+}
+
+/* White Box for Registration */
+.register-box {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+/* Heading */
+.register-box h2 {
+    color: #0a3d62;
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Register Button - Small */
+.register-form button {
+    width: 100%;
+    padding: 10px; /* Small Button */
+    background-color: #2ecc71; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.register-form button:hover {
+    background-color: #27ae60;
+}
+
+/* Footer Fixed at Bottom */
+.footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
